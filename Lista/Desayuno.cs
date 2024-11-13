@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Lista
 {
-    internal class Desayuno
+    public class Desayuno
     {
         public string Nombre { get; set; }
-        public int Unnecesary { get; set; }
         public int Cantidad { get; set; }
+
+        
     }
+
+
 }
